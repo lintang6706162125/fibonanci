@@ -30,7 +30,7 @@ public class Fibonanci {
         System.out.print("Masukan Angka :");
              int n = in.nextInt();
              int nilai=0;
-        for (int i = 1; i <= n; i++)
+        for (int i = n; i >= 1; i--)
             System.out.print( fibo(i)+" ");
          
     
