@@ -31,7 +31,7 @@ public class Fibonanci {
              int n = in.nextInt();
              int nilai=0;
         for (int i = 1; i <= n; i++)
-           nilai=nilai+fibo(1);
+           nilai=nilai+fibo(i);
          
     
         System.out.println("");
