@@ -34,7 +34,7 @@ public class Fibonanci {
            nilai=nilai+fibo(i);
          
     
-        System.out.println("");
+        System.out.println(nilai);
     }
     
 }
